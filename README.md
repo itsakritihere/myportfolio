@@ -1,22 +1,2 @@
-
-
-## How to use
-
-
-1. Clone the repo
-``` bash
-git clone https://github.com/MIHIR2006/mihir-portfolio.git
-```
-
-2. Install dependencies
-``` bash
-npm install
-```
-
-3. Start the dev server
-``` bash
-npm start
-```
-
-### Give it ⭐
-
+A personal portfolio website built with React.js to showcase my projects, skills, and contact information.
+This website is fully responsive, modern, and deployed using GitHub Pages.
