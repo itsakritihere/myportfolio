@@ -2,7 +2,7 @@
   "name": "akriti's-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/https://github.com/itsakritihere/myportfolios",
+  
 
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
