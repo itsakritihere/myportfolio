@@ -25,7 +25,7 @@ const Menu = props => {
           </li>
           <li>
             <a href="#contact" onClick={props.toggleMenu}>
-              CONTACT
+              CONTACT Me
             </a>
           </li>
         </ul>
