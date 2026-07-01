@@ -1,5 +1,4 @@
 import React from 'react';
-import SocialLinks from '../SocialLinks';
 import './Menu.css';
 
 const Menu = props => {
