@@ -5,8 +5,10 @@ import Diary from './Images/diary.png';
 import Ai from './Images/ai.png';
 import Home from './Images/home.png';
 import pp from './Images/pp.png';
-import aiopti from '.Images/aiopti.png'
-import minty from '.Images/image.png'
+import aiopti from './Images/aiopti.png';
+import minty from './Images/image.png';
+import mintu from './Images/potty.png';
+
 const Projects = props => {
   return (
     <section id="projects">
@@ -61,8 +63,9 @@ const Projects = props => {
     rel="noopener noreferrer"
     style={{
       display: "inline-block",
+      marginLeft: "220px",
       marginTop: "8px",
-      color: "#28a745",
+      color: "#3128a7",
       textDecoration: "underline",
       fontWeight: "bold",
       cursor: "pointer"
@@ -117,6 +120,7 @@ const Projects = props => {
     style={{
       display: "inline-block",
       marginTop: "8px",
+    
       color: "#0366d6",
       textDecoration: "underline",
       fontWeight: "bold",
@@ -131,7 +135,8 @@ const Projects = props => {
     style={{
       display: "inline-block",
       marginTop: "8px",
-      color: "#28a745",
+      marginLeft: "220px",
+      color: "#3128a7",
       textDecoration: "underline",
       fontWeight: "bold",
       cursor: "pointer"
@@ -172,7 +177,8 @@ const Projects = props => {
     style={{
       display: "inline-block",
       marginTop: "8px",
-      color: "#28a745",
+      marginLeft: "220px",
+      color: "#3128a7",
       textDecoration: "underline",
       fontWeight: "bold",
       cursor: "pointer"
@@ -183,7 +189,7 @@ const Projects = props => {
           </Project>
 <Project
             title="Woodside Cafe"
-            img={minty}
+            img={mintu}
           >
             <small>
               React Javascript Vercel Bootstrap
@@ -213,7 +219,8 @@ const Projects = props => {
     style={{
       display: "inline-block",
       marginTop: "8px",
-      color: "#28a745",
+      marginLeft: "220px",
+      color: "#3128a7",
       textDecoration: "underline",
       fontWeight: "bold",
       cursor: "pointer"

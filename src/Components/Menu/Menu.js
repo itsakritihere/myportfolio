@@ -29,7 +29,6 @@ const Menu = props => {
             </a>
           </li>
         </ul>
-        <SocialLinks />
       </div>
     </div>
   );
