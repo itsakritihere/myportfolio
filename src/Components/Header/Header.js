@@ -16,7 +16,7 @@ const Header = props => {
       <div className="container">
         <p>
           <div>
-             I am a king
+             I am a 
           </div>
         <Typed/>
         </p>

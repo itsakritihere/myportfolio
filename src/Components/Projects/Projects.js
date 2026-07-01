@@ -5,7 +5,8 @@ import Diary from './Images/diary.png';
 import Ai from './Images/ai.png';
 import Home from './Images/home.png';
 import pp from './Images/pp.png';
-
+import aiopti from '.Images/aiopti.png'
+import minty from '.Images/image.png'
 const Projects = props => {
   return (
     <section id="projects">
@@ -16,7 +17,60 @@ const Projects = props => {
           
         </div>
         <div className="projects-wrapper">
-
+            <Project
+  title="OptiSystemAiPrediction"
+  img={aiopti}
+>
+  <small>
+    "Python",
+  "Google Colab",
+  "TensorFlow",
+  "scikit-fuzzy",
+  "PyDub",
+  "FFmpeg",
+  "NumPy",
+  "Pandas",
+  "Matplotlib",
+  "Random Forest Model"
+  "Machine Learning",
+  "Data Analysis",
+  "Wireless Signal Processing",
+  "GitHub"
+  </small>
+  <p>
+    This project uses OptiSystem to simulate an optical communication system and generate data for Q-factor and BER under different transmitter power, EDFA gain, and range. A Random Forest model is trained on this data to predict performance without re-running simulations, enabling fast estimation and optimization of system parameters.
+  </p>
+  <a
+    href="https://github.com/itsakritihere/OptisytemAiprediction"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#0366d6",
+      textDecoration: "underline",
+      fontWeight: "bold",
+      cursor: "pointer"
+    }}
+  >
+    GitHub
+  </a>
+  <a
+    href="https://optisytem-aiprediction-bmbr.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#28a745",
+      textDecoration: "underline",
+      fontWeight: "bold",
+      cursor: "pointer"
+    }}
+  >
+    Live Demo
+  </a>
+</Project>
                 <Project
   title="Explainable Enhanced Recurrent Neural Network and Fuzzy logics for Lie detection using voice stress analysis."
   img={Ai}
@@ -42,6 +96,7 @@ const Projects = props => {
   >
     GitHub
   </a>
+ 
 </Project>
 
  <Project
@@ -69,9 +124,104 @@ const Projects = props => {
     }}
   >
     GitHub
+  </a><a
+    href="https://dear-diary-lilac.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#28a745",
+      textDecoration: "underline",
+      fontWeight: "bold",
+      cursor: "pointer"
+    }}
+  >
+    Live Demo
   </a>
 </Project>
-
+<Project
+            title="ShopEase"
+            img={minty}
+          >
+            <small>
+              React Javascript Vercel Bootstrap
+            </small>
+            <p>
+              Built a E-commerce website with perfect frontend Ui design and responsivess and enabling add to card option and others.
+            </p>
+            <a
+    href="https://github.com/itsakritihere/ShopEase"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#0366d6",
+      textDecoration: "underline",
+      fontWeight: "bold",
+      cursor: "pointer"
+    }}
+  >
+    GitHub
+  </a>
+  <a
+    href="https://shoppingsite-4f9v.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#28a745",
+      textDecoration: "underline",
+      fontWeight: "bold",
+      cursor: "pointer"
+    }}
+  >
+    Live Demo
+  </a>
+          </Project>
+<Project
+            title="Woodside Cafe"
+            img={minty}
+          >
+            <small>
+              React Javascript Vercel Bootstrap
+            </small>
+            <p>
+              Built a website for a commercial cafe.
+            </p>
+            <a
+    href="https://github.com/itsakritihere/woodsidecafe"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#0366d6",
+      textDecoration: "underline",
+      fontWeight: "bold",
+      cursor: "pointer"
+    }}
+  >
+    GitHub
+  </a>
+  <a
+    href="https://woodsidecafe.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#28a745",
+      textDecoration: "underline",
+      fontWeight: "bold",
+      cursor: "pointer"
+    }}
+  >
+    Live Demo
+  </a>
+          </Project>
           <Project
             title="Smart Home Monitoring System"
             img={Home}
@@ -83,6 +233,7 @@ const Projects = props => {
               Designed an IoT based smart home system using sensors (gas, fire, motion, temperature) for safety and monitoring and enabled real-time alerts via IFTTT and mobile notifications; used a cloud-based dashboard for remote tracking.
             </p>
           </Project>
+
 
           <Project
             title="SheGuard, an IoT Based Women Safety Device"
