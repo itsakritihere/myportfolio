@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Project = props => {
+const Project = (props) => {
   const techIcons = {
     sass: 'fab fa-sass',
     css: 'fab fa-css3-alt',
@@ -12,32 +12,34 @@ const Project = props => {
   };
 
   const link = props.link || 'http://';
-  const repo = props.repo || 'http://';
-  const techList = props.tech ? props.tech.split(' ') : []; // Safe split
+  const techList = props.tech ? props.tech.split(' ') : [];
 
   return (
     <div className="project">
-      <a className="project-link" href={link} target="_blank" rel="noopener noreferrer">
-        <img className="project-image" src={props.img} alt={'Screenshot of ' + props.title} />
+      <a
+        className="project-link"
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="project-image"
+          src={props.img}
+          alt={`Screenshot of ${props.title}`}
+        />
       </a>
+
       <div className="project-details">
         <div className="project-tile">
           <p className="icons">
-            {techList.map(t => (
-              <i className={techIcons[t]} key={t} />
+            {techList.map((t) => (
+              <i className={techIcons[t]} key={t}></i>
             ))}
           </p>
-          {props.title}{' '}
+          {props.title}
         </div>
+
         {props.children}
-        {/* <div className="buttons">
-          <a href={repo} target="_blank" rel="noopener noreferrer">
-            View source <i className="fas fa-external-link-alt" />
-          </a>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            Try it Live <i className="fas fa-external-link-alt" />
-          </a>
-        </div> */}
       </div>
     </div>
   );

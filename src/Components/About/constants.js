@@ -4,7 +4,7 @@ export const Bio = {
     "Full Stack Developer",
     "Android Developer",
     "UI/UX Designer",
-    "Programmer",
+    "Programmer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -81,14 +81,7 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/nextjs-icon-2048x2048-x6n5t31i.png",
       },
-      // {
-      //   name: "Angular Js",
-      //   image:
-      //     "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
-      // },
-      ,
-     
-      
+
     ],
   },
   {
