@@ -63,38 +63,54 @@ const About = (props) => {
                 </div>
               </p> */}
               <div className="TechContainer">
-                <a href="https://www.mongodb.com" target="_blank">
-                  <img
-                    className="Techs"
-                    src="https://skillicons.dev/icons?i=mongodb"
-                    alt="Mongodb"
-                  />
-                </a>
-                <a href="https://expressjs.com" target="_blank">
-                  {" "}
-                  <img
-                    className="Techs"
-                    src="https://skillicons.dev/icons?i=express"
-                    alt="Express js"
-                  />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                  {" "}
-                  <img
-                    className="Techs"
-                    src="https://skillicons.dev/icons?i=react"
-                    alt="React js"
-                  />
-                </a>
-                <a href="https://nodejs.org/en" target="_blank">
-                  {" "}
-                  <img
-                    className="Techs"
-                    src="https://skillicons.dev/icons?i=nodejs"
-                    alt="Node js"
-                  />
-                </a>
-              </div>
+  <a
+    href="https://www.mongodb.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className="Techs"
+      src="https://skillicons.dev/icons?i=mongodb"
+      alt="Mongodb"
+    />
+  </a>
+
+  <a
+    href="https://expressjs.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className="Techs"
+      src="https://skillicons.dev/icons?i=express"
+      alt="Express js"
+    />
+  </a>
+
+  <a
+    href="https://react.dev"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className="Techs"
+      src="https://skillicons.dev/icons?i=react"
+      alt="React js"
+    />
+  </a>
+
+  <a
+    href="https://nodejs.org/en"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className="Techs"
+      src="https://skillicons.dev/icons?i=nodejs"
+      alt="Node js"
+    />
+  </a>
+</div>
             </div>
           </div>
 
